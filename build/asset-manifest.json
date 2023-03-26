@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Hadleys-portfolio/static/css/main.fe19e681.chunk.css",
+    "main.js": "/Hadleys-portfolio/static/js/main.092200c1.chunk.js",
+    "main.js.map": "/Hadleys-portfolio/static/js/main.092200c1.chunk.js.map",
+    "runtime-main.js": "/Hadleys-portfolio/static/js/runtime-main.cdc3e7d6.js",
+    "runtime-main.js.map": "/Hadleys-portfolio/static/js/runtime-main.cdc3e7d6.js.map",
+    "static/css/2.d64471e2.chunk.css": "/Hadleys-portfolio/static/css/2.d64471e2.chunk.css",
+    "static/js/2.020b9da4.chunk.js": "/Hadleys-portfolio/static/js/2.020b9da4.chunk.js",
+    "static/js/2.020b9da4.chunk.js.map": "/Hadleys-portfolio/static/js/2.020b9da4.chunk.js.map",
+    "index.html": "/Hadleys-portfolio/index.html",
+    "precache-manifest.dfc0c3b1264925cd4e41490a3da5885c.js": "/Hadleys-portfolio/precache-manifest.dfc0c3b1264925cd4e41490a3da5885c.js",
+    "service-worker.js": "/Hadleys-portfolio/service-worker.js",
+    "static/css/2.d64471e2.chunk.css.map": "/Hadleys-portfolio/static/css/2.d64471e2.chunk.css.map",
+    "static/css/main.fe19e681.chunk.css.map": "/Hadleys-portfolio/static/css/main.fe19e681.chunk.css.map",
+    "static/js/2.020b9da4.chunk.js.LICENSE.txt": "/Hadleys-portfolio/static/js/2.020b9da4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cdc3e7d6.js",
+    "static/css/2.d64471e2.chunk.css",
+    "static/js/2.020b9da4.chunk.js",
+    "static/css/main.fe19e681.chunk.css",
+    "static/js/main.092200c1.chunk.js"
+  ]
+}
