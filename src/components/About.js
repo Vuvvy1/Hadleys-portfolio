@@ -3,10 +3,12 @@ import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
+import { auto } from "@popperjs/core";
 
 class About extends Component {
   render() {
-    const profilepic = "/images/myNewProfile.jpg";
+    var profilepic =
+      "https://raw.githubusercontent.com/Vuvvy1/Hadleys-portfolio/master/public/images/myNewProfile.jpg";
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
@@ -24,7 +26,8 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
+                    height="300px"
+                    width="auto"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
