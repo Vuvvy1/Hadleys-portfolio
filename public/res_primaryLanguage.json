@@ -1,7 +1,7 @@
 {
   "basic_info": {
-    "description_header": "hi",
-    "description": "👋 I'm Hadley Sutherland. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Vuvvy1. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+    "description_header": "Hello!",
+    "description": "My experience has taught me that prioritizing user experience leads to achieving business objectives while creating engaging customer experiences. I possess strong technical, communication, and collaboration skills, and I am committed to continuous learning and growth to stay up-to-date with the latest UX and leadership trends. My goal is always to deliver the best possible outcomes for users and organizations, whether working independently or leading a team.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -11,58 +11,91 @@
   },
   "projects": [
     {
-      "title": "Animal Shelter",
-      "startDate": "2020",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "title": "RentProof",
+      "startDate": "2023",
+      "description": "RentProof is An app to track and analyze rental prices. Users can submit info about their rent costs, and the app tracks this data, graphing out rental increases over the years, and showing how each property's price fluctuations compare to the rest of the market. The project uses tech stacks such as React, Google API, Express, Node, and Psql.",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "https://user-images.githubusercontent.com/114964214/219803273-82b17612-df77-457b-8ff4-84e6411a84ce.gif",
+        "https://user-images.githubusercontent.com/114964214/219803406-846513ee-60bf-4f69-ae85-7c1c1b0a4be1.gif",
+        "https://user-images.githubusercontent.com/114964214/219803343-a6fc91a7-ff3f-456e-959f-dcf60b886304.gif"
       ],
-      "url": "",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
-    },
-    {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-      "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
-      ],
-      "url": "https://github.com",
+      "url": "https://github.com/Vuvvy1/rent-tracker",
       "technologies": [
         {
           "class": "devicon-react-original",
           "name": "React"
         },
         {
+          "class": "devicon-google-plain",
+          "name": "Google"
+        },
+        {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "Psql"
         }
       ]
     },
     {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "title": "scheduler application",
+      "startDate": "2022",
+      "description": "This is a user-friendly interview scheduler application that allows users to book, edit, and delete interviews between Monday and Friday with available spots for each day. The client-side is implemented using React with Axios API requests while the server-side API implementation is located in a separate repository. The application also features unit and integration testing with Jest and end-to-end testing with Cypress.",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "https://user-images.githubusercontent.com/8649801/118924503-69206e80-b8fa-11eb-8d7f-84e625e4a582.gif",
+        "https://user-images.githubusercontent.com/8649801/118924551-7dfd0200-b8fa-11eb-8ba3-a3b400258c09.png",
+        "https://user-images.githubusercontent.com/8649801/118921614-b6e6a800-b8f5-11eb-984b-03b43e80180d.gif",
+        "https://user-images.githubusercontent.com/8649801/118921629-bbab5c00-b8f5-11eb-88e3-001e72f32604.gif"
       ],
-      "url": "https://github.com",
+      "url": "https://github.com/Vuvvy1/scheduler",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-sass-original",
+          "name": "SCSS"
+        },
+        {
+          "class": "devicon-storybook-plain",
+          "name": "Storybook"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Cypress"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Jest"
+        }
+      ]
+    },
+    {
+      "title": "Jungle",
+      "startDate": "2022",
+      "description": "An e-commerce application built with Rails 4.2, using idiomatic Ruby and Rails practices. This app uses HTML, SCSS and JS on the front-end; Ruby on Rails and PostgreSQL on the back-end.",
+      "images": [
+        "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/home-page.png",
+      "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/new-user-registration.png",
+      "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/products-in-cart.png",
+      "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/stripe-payment.png",
+      "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/order-confirmation.png",
+      "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/write-review.png",
+      "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/rating-submitted.png",
+      "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/product-with-no-reviews.png"
+      ],
+      "url": "https://github.com/Vuvvy1/Jungle",
       "technologies": [
         {
           "class": "devicon-angularjs-plain",
@@ -81,26 +114,29 @@
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
+      "company": "Lighthouse Labs",
+      "title": "Full-stacks Developer",
+      "years": "2022-2023",
       "mainTech": [
-        "Angular 8/9/10"
+        
       ],
       "technologies": [
         "REST API",
-        "RxJS",
+        "Node.js",
         "JavaScript",
         "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "Express",
+        "Ruby on Rails",
+        "SQL",
+        "CSS",
+        "React",
+        "Google api",
+        "Cypress",
+        "Jest"
       ]
     },
     {
-      "company": "Serros Solutions",
+      "company": "Maintenance & Management",
       "title": "Intern",
       "years": "01.2018 - 09.2019",
       "mainTech": [
