@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import theme from '../theme';
+
 
 class Header extends Component {
   titles = [];
@@ -62,7 +64,7 @@ class Header extends Component {
                 <Switch
                   checked={this.state.checked}
                   onChange={this.onThemeSwitchChange}
-                  offColor="#baaa80"
+                  offColor={theme.secondaryColor}
                   onColor="#353535"
                   className="react-switch mx-auto"
                   width={90}

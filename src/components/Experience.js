@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
+import theme from '../theme';
 
 class Experience extends Component {
   render() {
@@ -33,7 +34,7 @@ class Experience extends Component {
             className="vertical-timeline-element--work"
             date={work.years}
             iconStyle={{
-              background: "#AE944F",
+              background: `${theme.secondaryColor}`,
               color: "#fff",
               textAlign: "center",
             }}
@@ -78,7 +79,7 @@ class Experience extends Component {
             {work}
             <VerticalTimelineElement
               iconStyle={{
-                background: "#AE944F",
+                background: `${theme.secondaryColor}`,
                 color: "#fff",
                 textAlign: "center",
               }}

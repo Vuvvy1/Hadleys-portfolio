@@ -121,7 +121,7 @@
         
       ],
       "technologies": [
-        "REST API",
+        "React.js",
         "Node.js",
         "JavaScript",
         "Bootstrap",
@@ -129,7 +129,7 @@
         "Ruby on Rails",
         "SQL",
         "CSS",
-        "React",
+        "REST API",
         "Google api",
         "Cypress",
         "Jest"
@@ -137,17 +137,11 @@
     },
     {
       "company": "Maintenance & Management",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
+      "title": "Manager",
+      "years": "2021 - current",
       "mainTech": [
-        "Angular 7/8"
       ],
       "technologies": [
-        "RxJS",
-        "Django",
-        "PHP",
-        "JavaScript",
-        "DHTMLX Gantt"
       ]
     }
   ]
