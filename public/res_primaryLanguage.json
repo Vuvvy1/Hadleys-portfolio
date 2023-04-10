@@ -13,7 +13,7 @@
     {
       "title": "RentProof",
       "startDate": "2023",
-      "description": "RentProof is An app to track and analyze rental prices. Users can submit info about their rent costs, and the app tracks this data, graphing out rental increases over the years, and showing how each property's price fluctuations compare to the rest of the market. The project uses tech stacks such as React, Google API, Express, Node, and Psql.",
+      "description": "RentProof is An app to track and analyze rental prices. Users can submit info about their rent costs, and the app tracks this data, graphing out rental increases over the years, and showing how each property's price fluctuations compare to the rest of the market. The project uses tech stack such as React, Google API, Express, Node, and Psql.",
       "images": [
         "https://user-images.githubusercontent.com/114964214/219803273-82b17612-df77-457b-8ff4-84e6411a84ce.gif",
         "https://user-images.githubusercontent.com/114964214/219803406-846513ee-60bf-4f69-ae85-7c1c1b0a4be1.gif",
@@ -87,13 +87,13 @@
       "description": "An e-commerce application built with Rails 4.2, using idiomatic Ruby and Rails practices. This app uses HTML, SCSS and JS on the front-end; Ruby on Rails and PostgreSQL on the back-end.",
       "images": [
         "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/home-page.png",
-      "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/new-user-registration.png",
-      "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/products-in-cart.png",
-      "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/stripe-payment.png",
-      "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/order-confirmation.png",
-      "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/write-review.png",
-      "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/rating-submitted.png",
-      "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/product-with-no-reviews.png"
+        "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/new-user-registration.png",
+        "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/products-in-cart.png",
+        "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/stripe-payment.png",
+        "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/order-confirmation.png",
+        "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/write-review.png",
+        "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/rating-submitted.png",
+        "https://raw.githubusercontent.com/jonosue/jungle-rails/master/docs/product-with-no-reviews.png"
       ],
       "url": "https://github.com/Vuvvy1/Jungle",
       "technologies": [
@@ -115,11 +115,9 @@
   "experience": [
     {
       "company": "Lighthouse Labs",
-      "title": "Full-stacks Developer",
+      "title": "Full-stack Developer",
       "years": "2022-2023",
-      "mainTech": [
-        
-      ],
+      "mainTech": [],
       "technologies": [
         "React.js",
         "Node.js",
@@ -139,10 +137,8 @@
       "company": "Maintenance & Management",
       "title": "Manager",
       "years": "2021 - current",
-      "mainTech": [
-      ],
-      "technologies": [
-      ]
+      "mainTech": [],
+      "technologies": []
     }
   ]
 }

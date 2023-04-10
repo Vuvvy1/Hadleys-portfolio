@@ -1,16 +1,7 @@
+@use 'theme' as t;
 @import '../src/scss/themes/theme-dark.scss';
 @import '../src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
-
-
-// Variables
-
-
-// Forest theme
-$primary-color: #5c855c;
-$secondary-color: #8fbc8f;
-$background-color: #f0f8ff;
-$footer-background-color: #3f3f3f;
 
 // Global styles
 
@@ -49,7 +40,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: $primary-color;
+	background-color: t.$primaryColor;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -85,7 +76,7 @@ header {
 
 .language {
 	font-size: 25px;
-	background-color: $primary-color;
+	background-color: t.$primaryColor;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -101,11 +92,11 @@ header h1 {
 }
 
 .slider-image {
-	border: 5px solid $primary-color;
+	border: 5px solid t.$primaryColor;
 }
 
 .slider-tab {
-	background-color: $primary-color;
+	background-color: t.$primaryColor;
 	height: 25px;
 }
 
@@ -119,7 +110,7 @@ header h1 {
 }
 
 #about {
-	background: $background-color;
+	background: t.$background-color;
 	overflow: hidden;
 }
 
@@ -138,7 +129,7 @@ header h1 {
 }
 
 .foto div {
-	background: $background-color;
+	background: t.$background-color;
 	display: inline-block;
 	margin: 0 auto 5% auto;
 	padding: 10px 10px 5px;
@@ -186,7 +177,7 @@ header h1 {
 }
 
 .polaroid span {
-	background: $background-color;
+	background: t.$background-color;
 	display: inline-block;
 	margin: 55px 75px 30px;
 	padding: 15px 15px 30px;
@@ -216,7 +207,7 @@ header h1 {
 
 #preview {
 	width: 500px;
-	background-color: $background-color;
+	background-color: t.$background-color;
 	padding: 15px;
 	position: relative;
 	margin-bottom: 15%;
@@ -229,7 +220,7 @@ header h1 {
 }
 
 #resume {
-	background: $background-color;
+	background: t.$background-color;
 }
 
 .experience-icon {
@@ -243,7 +234,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: $secondary-color !important;
+	background-color: t.$secondaryColor !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -274,7 +265,7 @@ header h1 {
 }
 
 .modal-inside .modal-content {
-	background: $background-color;
+	background: t.$background-color;
 }
 
 .bars {
@@ -292,7 +283,7 @@ header h1 {
 .bars li {
 	position: relative;
 	margin-bottom: 60px;
-	background: $background-color;
+	background: t.$background-color;
 	height: 42px;
 	border-radius: 3px;
 }
@@ -313,7 +304,7 @@ header h1 {
 	top: 0;
 	margin: 0;
 	padding-right: 24px;
-	background: $background-color;
+	background: t.$background-color;
 	display: inline-block;
 	height: 42px;
 	line-height: 42px;
@@ -351,7 +342,7 @@ header h1 {
 }
 
 #portfolio {
-	background: $secondary-color;
+	background: t.$secondaryColor;
 	padding-bottom: 5%;
 }
 
@@ -366,7 +357,7 @@ header h1 {
 	-moz-transition: all ease 0.5s;
 	transition: all ease 0.5s;
 	opacity: 0;
-	background-color: $footer-background-color;
+	background-color: t.$footer-background-color;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -387,7 +378,7 @@ header h1 {
 }
 
 #skills {
-	background: $footer-background-color;
+	background: t.$footer-background-color;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -412,7 +403,7 @@ header h1 {
 }
 
 footer {
-	background: $footer-background-color;
+	background: t.$footer-background-color;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;

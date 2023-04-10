@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
-import theme from '../theme';
+import theme from '../colors.scss';
 
 
 class Header extends Component {

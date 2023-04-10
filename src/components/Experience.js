@@ -5,7 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
-import theme from '../theme';
+import theme from '../colors.scss';
 
 class Experience extends Component {
   render() {
