@@ -34,7 +34,7 @@ class Experience extends Component {
             className="vertical-timeline-element--work"
             date={work.years}
             iconStyle={{
-              background: `${theme.secondaryColor}`,
+              background: `#75a375`,
               color: "#fff",
               textAlign: "center",
             }}
@@ -79,7 +79,7 @@ class Experience extends Component {
             {work}
             <VerticalTimelineElement
               iconStyle={{
-                background: `${theme.secondaryColor}`,
+                background: `#75a375`,
                 color: "#fff",
                 textAlign: "center",
               }}
